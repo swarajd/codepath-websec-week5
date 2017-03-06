@@ -1,43 +1,43 @@
 # Project 5 - Encryption
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
 1\. Symmetric Encrypt/Decrypt
-  * [*]  Required: Repair the symmetric encrypt and decrypt code
+  * [x]  Required: Repair the symmetric encrypt and decrypt code
 
 2\. Encrypted Message 1
-  * [*]  Required: Decrypt the government message (plaintext: I heard about your current situation. Do you know who hacked APEX? -- The Chairman)
-  * [*]  Required: Encrypt a response and include in this README (response: XXWbOEWpCGSyd9783BrOLoNFBhlfAiLkGTI50B5chec=)
+  * [x]  Required: Decrypt the government message (plaintext: I heard about your current situation. Do you know who hacked APEX? -- The Chairman)
+  * [x]  Required: Encrypt a response and include in this README (response: XXWbOEWpCGSyd9783BrOLoNFBhlfAiLkGTI50B5chec=)
 
 3\. Generate Public-Private Keys
-  * [*]  Required: Repair the key generator code
-  * [*]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
+  * [x]  Required: Repair the key generator code
+  * [x]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
 
 4\. Asymmetric Encrypt/Decrypt
-  * [*]  Required: Repair the asymmetric encrypt and decrypt code
+  * [x]  Required: Repair the asymmetric encrypt and decrypt code
 
 5\. Create/Verify Signature
-  * [*]  Required: Repair the create and verify signature code
+  * [x]  Required: Repair the create and verify signature code
   
 6\. Encrypted Message 2
-  * [*]  Required: Decrypt the message (plaintext: Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow)
-  * [*]  Required: Verify the message (integrity: valid)
-  * [*]  Required: Include a response message in this README (response: gCYFW9f8tUHRaYFsMcvA2XsrOIvXrDs+0yE8DW1nDHxbJ6u6mmHiwhvhX/CdNlNCb0oyqt3tEqRBjkx5R4RjpuTgnGwd1GAYBBEjSZzGTXA8llMD7mXrBB8eb2A19Hq/YD12vNui8d6Qs0Ce+n1P/Qr5eMM8rN05FGsHYhz2mFs7OO+LW2oBYMYR89OfDrX46y3oAIlXyNgLaOjpyX8Vq1siKkKlNnLD0JS5WkJA7kEfsDe7VlmqwAwYYrtsaPi4w5CRUnst2wpeHGcHLPwzkQbcmTjl63EBqyEEbRnqOypK8p6MnuXrh6UUCJJcoV4nOPLBRJChQ5ytX2FM3ICGFw==) (sign: pUdBzzxYQ8196WRY9w9e4agk/fMRKGW3VsQauKYOqsY0BIOioKT8dgIFpcchEaPn16uxsqdTXdTw1lZdCYuUG0coJhM2OB/k/sH27g1Z5Kv8Bqz98dpe1hy2ltShUIlKVvXxZf1TgZ54KLed6LVCkLfcBZibfwEZfFhs7q0ZQHj1iCe1f67B0Plt4PIutvTH06A2Y4jkwFmBVSWvflzU7BBKNTx7offtTTiQ/Rr7M6emT2Kcd8ZMS1MKkBUH0MMOEHH3YUHbX2mggLAcIYYx9H5v+p/PmuXiUwpOx2ujY2yAPrsimZ2JINVCIGq6t0C+/LEDl1Rhai5TA4zDvyBpfA==)
+  * [x]  Required: Decrypt the message (plaintext: Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow)
+  * [x]  Required: Verify the message (integrity: valid)
+  * [x]  Required: Include a response message in this README (response: gCYFW9f8tUHRaYFsMcvA2XsrOIvXrDs+0yE8DW1nDHxbJ6u6mmHiwhvhX/CdNlNCb0oyqt3tEqRBjkx5R4RjpuTgnGwd1GAYBBEjSZzGTXA8llMD7mXrBB8eb2A19Hq/YD12vNui8d6Qs0Ce+n1P/Qr5eMM8rN05FGsHYhz2mFs7OO+LW2oBYMYR89OfDrX46y3oAIlXyNgLaOjpyX8Vq1siKkKlNnLD0JS5WkJA7kEfsDe7VlmqwAwYYrtsaPi4w5CRUnst2wpeHGcHLPwzkQbcmTjl63EBqyEEbRnqOypK8p6MnuXrh6UUCJJcoV4nOPLBRJChQ5ytX2FM3ICGFw==) (sign: pUdBzzxYQ8196WRY9w9e4agk/fMRKGW3VsQauKYOqsY0BIOioKT8dgIFpcchEaPn16uxsqdTXdTw1lZdCYuUG0coJhM2OB/k/sH27g1Z5Kv8Bqz98dpe1hy2ltShUIlKVvXxZf1TgZ54KLed6LVCkLfcBZibfwEZfFhs7q0ZQHj1iCe1f67B0Plt4PIutvTH06A2Y4jkwFmBVSWvflzU7BBKNTx7offtTTiQ/Rr7M6emT2Kcd8ZMS1MKkBUH0MMOEHH3YUHbX2mggLAcIYYx9H5v+p/PmuXiUwpOx2ujY2yAPrsimZ2JINVCIGq6t0C+/LEDl1Rhai5TA4zDvyBpfA==)
 
 7\. Agent Messages
-  * [*]  Required: Repair the dropbox code
-  * [*]  Required: Repair the messages area
-  * [*]  Required: Display encrypted messages for all agents
-  * [*]  Required: Messages indicate whether the message signature is valid
-  * [*]  Required: Your messages are automatically decrypted
+  * [x]  Required: Repair the dropbox code
+  * [x]  Required: Repair the messages area
+  * [x]  Required: Display encrypted messages for all agents
+  * [x]  Required: Messages indicate whether the message signature is valid
+  * [x]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
-  * [*]  Required: Decrypt as many email messages as possible
-  * [*]  Required: Identify the double agent: Natasha
+  * [x]  Required: Decrypt as many email messages as possible
+  * [x]  Required: Identify the double agent: Natasha
 
 The following objectives are **optional**:
 
